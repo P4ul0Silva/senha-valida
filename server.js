@@ -1,8 +1,8 @@
 import e from "express";
 import { graphqlHTTP } from "express-graphql";
 import { makeExecutableSchema } from "graphql-tools";
-import { typeDefs } from "./types/passwordType.js";
-import { passwordResolver } from "./resolvers/passwordResolver.js";
+import { typeDefs } from "./src/types/passwordType.js";
+import { passwordResolver } from "./src/resolvers/passwordResolver.js";
 
 const executableSchema = makeExecutableSchema({
   typeDefs,
