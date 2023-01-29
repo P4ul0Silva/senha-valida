@@ -83,14 +83,16 @@ Exemplo de requisição com Insomnia método POST:
 Apenas cole o código a seguir no corpo da sua requisição HTTP e altere os valores para ver funcionando
 ```
 {
-	"query": "{verify(password: \"TesteSenhaForte!1234&\", rules: [{rule: \"minDigit\", value: 4}, {rule: \"minSpecialChars\", value: 2}, {rule: \"noRepeated\", value: 0}]){verify, noMatch}}"
+	"query": "{verify(password: \"TesteSenhaForte!1234&\", rules: [{rule: \"minDigit\", value: 4}, {rule: \"minUpperCase\", value: 4}, {rule: \"minLowerCase\", value: 4}, {rule: \"minSpecialChars\", value: 2}, {rule: \"noRepeated\", value: 0}]){verify, noMatch}}"
 }
 ```
 Exemplo de requisição diretamente através do local https://localhost:8080/graphql usando o GraphqIQL
 ```
 {
-  verify(password: "TesteSenhaForte!123@", rules: [
-    {rule: "minSize", value: 8}, 
+  verify(password: "TesteSEnhaForte1234@!", rules: [
+    {rule: "minSize", value: 8},
+    {rule: "minUpperCase", value: 4},
+    {rule: "minLowerCase", value: 4},
     {rule: "minSpecialChars", value: 2},
     {rule: "noRepeated", value: 0},
     {rule: "minDigit", value: 4}
