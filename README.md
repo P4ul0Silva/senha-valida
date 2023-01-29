@@ -104,3 +104,6 @@ Exemplo de requisição diretamente através do local http://localhost:8080/grap
 }
 
 ```
+
+Implementações futuras: 
+- Implementar validação com banco de palavras e senhas vazadas para maior segurança da senha.
