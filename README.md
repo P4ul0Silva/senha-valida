@@ -19,7 +19,7 @@ No entanto, ainda que não tão poderosos, nossos <strong>dispositivos atuais</s
 como mostrado neste infográfico encontrado em "komando.com" em "How secure is my password" de "security.org" em que, o tempo que se leva para quebrar uma senha, está diretamente ligada à sua complexidade e principalmente o tamanho. <br>
 
 ![Planilha mostrando a relação entre a complexidade de uma senha e o tempo que leva para "quebra-la". Brevemente, em casos com 4 caracteres a estimativa é de apenas poucos segundos. Mas apartir de 8 caracters com complexidade suficiente e pouca previsibilidade o gráfico mostra um tempo estimado em 5 anos e para senhas mais fortes, até o infinito praticamente(para qualquer pessoa).](https://b1681952.smushcdn.com/1681952/wp-content/uploads/2021/03/Passwords-chart-900x473.jpg?lossy=0&strip=1&webp=1 "")<br>
-<small>fonte: <a href="www.komando.com/security-privacy/check-your-password-strength/783192/">check your password strength</a> BY CHARLIE FRIPP, KOMANDO.COM</small>
+<small>fonte: <a target='_blank' href="www.komando.com/security-privacy/check-your-password-strength/783192/">check your password strength</a> BY CHARLIE FRIPP, KOMANDO.COM</small>
 
 ## Mas o que é uma boa senha? 
 
@@ -86,7 +86,7 @@ Apenas cole o código a seguir no corpo da sua requisição HTTP e altere os val
 	"query": "{verify(password: \"TesteSenhaForte!1234&\", rules: [{rule: \"minDigit\", value: 4}, {rule: \"minUpperCase\", value: 4}, {rule: \"minLowerCase\", value: 4}, {rule: \"minSpecialChars\", value: 2}, {rule: \"noRepeated\", value: 0}]){verify, noMatch}}"
 }
 ```
-Exemplo de requisição diretamente através do local https://localhost:8080/graphql usando o GraphqIQL
+Exemplo de requisição diretamente através do local <a target='_blank'>https://localhost:8080/graphql</a> usando o GraphqIQL
 ```
 {
   verify(password: "TesteSEnhaForte1234@!", rules: [
