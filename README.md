@@ -1,5 +1,5 @@
 # Senha-Válida
-- Esta API utiliza GraphQl + Express para receber uma determinada combinação de caracteres, e retornar se foi validada por um grupo de regras   	   personalizáveis.
+- Esta API utiliza <strong>GraphQl + Express</strong> para receber uma determinada combinação de caracteres, e retornar se foi validada por um grupo de regras <strong>personalizáveis</strong>.
 - Sua senha não deve ser armazenada por qualquer serviço.
 - O que deveria acontecer na verdade, é apenas o <strong>processamento</strong> desse dado por parte do servidor.
 
