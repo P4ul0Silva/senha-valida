@@ -1,5 +1,5 @@
 # Senha-Válida
-- Esta API recebe uma determinada combinação de caracteres, e retorna se foi validada por um grupo de regras e/ou quais regras não passaram.
+- Esta API utiliza GraphQl + Express para receber uma determinada combinação de caracteres, e retornar se foi validada por um grupo de regras e/ou quais   regras não passaram.
 - Sua senha não deve ser armazenada por qualquer serviço.
 - O que deveria acontecer na verdade, é apenas o <strong>processamento</strong> desse dado por parte do servidor.
 
@@ -44,8 +44,7 @@ Mas caso você queira aprender a fazer uma boa senha, lembre-se destes passos...
 - Deve ter caracteres minúsculos e maiúsculos.
 - Deve ter números. 
 - Deve ter caracteres especiais ("!@#$%^&*()-+\/{}[]").
-- <strong>Não</strong> tenha nenhum caractere repetido em sequência ( ou seja, "aab" viola esta
-condição, mas "aba" não).
+- <strong>Não</strong> tenha nenhum caractere repetido em sequência.
 
 
 
