@@ -1,6 +1,6 @@
 import e from "express";
 import { graphqlHTTP } from "express-graphql";
-import { makeExecutableSchema } from "graphql-tools";
+import { makeExecutableSchema } from "@graphql-tools/schema";
 import { typeDefs } from "./src/types/passwordType.js";
 import { passwordResolver } from "./src/resolvers/passwordResolver.js";
 
