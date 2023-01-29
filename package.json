@@ -1,5 +1,6 @@
 {
   "name": "senha_valida",
+  "author": "P4ul0Silva",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
